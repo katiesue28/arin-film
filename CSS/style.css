@@ -33,8 +33,11 @@ p{
 	position: absolute;
 	width: 100%
 }
+.hero-image {
+	background: url('../images/Arin-white.jpg') ;
+  background-size: cover;
+}
 .headline{
-	background: url('../images/Arin-white.jpg')  no-repeat center center;
 	font-family: Roboto;
 	padding-right: 150px;
 	padding-top: 200px;
