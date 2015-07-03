@@ -1,12 +1,19 @@
 body{
 	background-color: white;
 	font-family: Roboto;
+	font-size: 50px;
 }
 h1{
 	text-align: right;
-	font-size: 50px;
+	font-size: 1em;
 	font-family: Roboto;
 	letter-spacing: 5px;
+	color: #1b3861;
+}
+h3{
+	color: #1b3861;
+}
+h4{
 	color: #1b3861;
 }
 p{
@@ -14,7 +21,13 @@ p{
 	font-size: 16px;
 	font-family: Roboto;
 	color: #1b3861;	
-
+}
+.logo-header{
+	display: inline-block;
+	margin-left: 2em;
+}
+.row-header{
+	display:inline-block;
 }
 .col-md-6{
 	margin-top: 50px;
@@ -33,8 +46,11 @@ p{
 	position: absolute;
 	width: 100%
 }
+.hero-image {
+	background: url('../images/Arin-white.jpg') ;
+  background-size: cover;
+}
 .headline{
-	background: url('../images/Arin-white.jpg')  no-repeat center center;
 	font-family: Roboto;
 	padding-right: 150px;
 	padding-top: 200px;
@@ -53,4 +69,31 @@ p{
 	color: #87a4b6;
 	min-width: 300px;
 	}
+}
+.parallax {
+  margin: 0;
+  padding: 0;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.slide {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+  padding: 25vh 10%;
+  min-height: 120vh;
+  width: 100vw;
+  box-sizing: border-box;
+  transform-style: inherit;
+
+  .blurb {
+    margin: 0 15vw 0 0;
+  }
 }
